@@ -1,3 +1,4 @@
+
 describe "Grocer" do
   # let() is like a global variable for tests
   let(:items) do
@@ -13,6 +14,7 @@ describe "Grocer" do
       {:item => "BEETS", :price => 2.50, :clearance => false},
       {:item => "SOY MILK", :price => 4.50, :clearance => true}
     ]
+    #binding.pry
   end
 
   let(:coupons) do
